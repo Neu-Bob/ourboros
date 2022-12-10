@@ -9,7 +9,7 @@ services:
       - INTERVAL=300
       - LOG_LEVEL=info
       - SELF_UPDATE=true
-      - IGNORE=mongo influxdb postgres mariadb
+      - IGNORE=couchbase
       - TZ=America/New_York
     restart: unless-stopped
     volumes:
